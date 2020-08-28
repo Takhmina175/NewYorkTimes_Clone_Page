@@ -1,21 +1,26 @@
 html body{
     height: 100%;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    
 }
 
 .navbar{
     width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 4px 15px 2px;
 }
-
+.bordBott{
+    border-bottom: 1px solid #e2e2e2;
+}
 .leftcorner{
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 20px; 
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: 10px;
+ 
+}
+.center{
+    margin: 6px auto 0;
 }
 
 .space{
@@ -32,7 +37,11 @@ a{
 
 }
 .rightcorner{
+    display: flex;
     font-size: 11px;
+    justify-content: space-around;
+    position: absolute;
+    right: 10px;
 }
 .sbscrb{
     background-color: rgb(50, 104, 145);
@@ -72,7 +81,7 @@ a{
     font-weight: 700;
     max-width: 600px;
     color: #121212;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .pictureSpace p{
     text-align: left;
