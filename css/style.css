@@ -1,13 +1,17 @@
 html body{
     height: 100%;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;  
 }
 
 .navbar{
     width: 100%;
     margin: 0 auto;
     display: flex;
+}
+
+.lines{
+    width: 18px;
+    height: 19px;
 }
 .bordBott{
     border-bottom: 1px solid #e2e2e2;
@@ -24,7 +28,7 @@ html body{
 }
 
 .space{
-    margin-top: 0px;
+    margin-top: 2px;
 }
 .nyt{
     font-size: 16px;
@@ -59,11 +63,7 @@ a{
     background-color: white;
     border: 0;
 }
-#navLine{
-    position: relative;
-    top: 10px;
-    color: #e2e2e2;
-}
+
 
 .grid1{
     display: grid;
@@ -102,13 +102,13 @@ a{
 .grid2 h4{
     grid-column: 2;
     grid-row: 1;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .wrapContainer{
     grid-column: 2;
     grid-row: 2;
     display: block ruby;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .socialMediaIcon{
     margin-left: 65%;
@@ -116,7 +116,7 @@ a{
 .grid2 p{
     grid-column: 2;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     max-width: 100%;
     font-size: 1.25rem;
     line-height: 1.875rem;
@@ -189,11 +189,9 @@ a{
     font-weight: bold;
 } 
 .box p{
-    width: 80%;
-    max-width: 100%;
+    width: 90%;
     font-size: 1.25rem;
     line-height: 1.875rem;
-    margin: 0 auto;
     color: #333;
 }
 .box h2{
@@ -317,8 +315,8 @@ figcaption{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(6, 200px);
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 3%;
+    margin-left: 3%;
     column-gap: 20px;
     font-family: nyt-cheltenham;
 }
@@ -430,9 +428,12 @@ footer{
     margin-right: 2%;
 }
 .wrapLogo{
-    margin: 2%;
+    margin-top: 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-right: 70%;
 }
 .homepage{
     color: rgb(86, 123, 149);
