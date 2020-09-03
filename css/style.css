@@ -96,7 +96,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 40px 50px auto;
-    margin-top: 40px;
+    margin-top: 70px;
     color: #333;
 }
 .grid2 h4{
@@ -107,13 +107,15 @@ a{
 .wrapContainer{
     grid-column: 2;
     grid-row: 2;
-    display: block ruby;
+    display: inline-flex;
     margin-left: 5%;
 }
 .socialMediaIcon{
-    margin-left: 65%;
+    padding: 0px 10px;
+    margin-left: 55%;
+    margin-top: 20px;
 }
-.grid2 p{
+.grid2 p, .box p{
     grid-column: 2;
     margin: 0 auto;
     width: 90%;
@@ -188,18 +190,13 @@ a{
 #thanks{
     font-weight: bold;
 } 
-.box p{
-    width: 90%;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    color: #333;
-}
+
 .box h2{
     text-align: center;
 }
 .TheoryInflation{
-    margin-left: 13%;
-    margin-right: 6%;
+    margin-left: 17%;
+    margin-right: 17%;
     font-size: .875rem;
     line-height: 1.125rem;
     font-weight: 400;
@@ -224,10 +221,9 @@ a{
     display: flex;
     grid-column: 1;
     grid-row: 1;
+    font-size: 12px;
 }
 .wrap2{
-    display: flex;
-    grid-column: 1;
     grid-row: 2;
 }
 .footnote{
@@ -243,7 +239,7 @@ a{
     border-top: 1px solid black;
     box-sizing: border-box;
     max-width: 100px;
-    margin: 25px auto;
+    margin: 20px auto 0px auto;
     margin-left: 10px;
 }
 #LarryBuchanan{
@@ -274,19 +270,21 @@ a{
 .embedingVideo{
     grid-column: 2;
     grid-row: 2;
-    text-align: center;
+}
+.embdImage{
+    grid-column: 2;
+    grid-row: 4;
+    
+}
+.marginsforVideo_Image{
+    margin-left: 32px;
+    margin-top: 20px;
 }
 figcaption{
     color: #666;
     margin: 10px 20px 30px 0;
     text-align: left;
-    margin-left: 30px;
-    width: 93%
-}
-.embdImage{
-    grid-column: 2;
-    grid-row: 4;
-    text-align: center;
+    width: 85%
 }
 .FootNote{
     grid-column: 2;
