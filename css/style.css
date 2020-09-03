@@ -424,12 +424,15 @@ footer{
     margin-right: 3%;
     margin-left: 3%;
 }
+.footerItems{
+    margin: 20px
+}
 .footerBorder-top{
     border-style: double;
     border-top: 1px solid #e2e2e2;
     box-sizing: border-box;
     max-width: 100%;
-    margin-left: 2%;
+    margin-left: 1%;
     margin-right: 2%;
 }
 .wrapLogo{
@@ -451,7 +454,7 @@ footer{
     grid-column: 1 / -1;
     grid-row: 2;
     display: flex;
-    gap: 7px;
+    
     
 }
 .list{
@@ -479,9 +482,11 @@ ul{
     box-sizing: border-box;
     max-width: 100%;
 }
-.col1{
-    margin-left: 3%;
+ .col1{
+    margin-left: 1%;
     list-style: none;
+    gap: 3px;
+
 }
 
 .col1 h4{
