@@ -1,59 +1,29 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# New York Times Clone Page
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/nyt_page.png)
 
 Additional description about the project and its features.
 
 ## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
+-HTML
+-CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://github.com/Takhmina175/NewYorkTimes_Clone_Page)
 
 ## Authors
 
-👤 **Author1**
+👤 **Takhmina175**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@Takhmina175](https://github.com/Takhmina175)
+- Twitter: [@Takhmina](https://twitter.com/Takhmin73630110)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/takhmina-makhkamova-7628136b/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
