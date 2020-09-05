@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-New York Times Clone Page
+# New York Times Clone Page
+
 > One paragraph statement about the project.
 
 ![screenshot](./images/nyt_page.png)
@@ -9,14 +9,12 @@ New York Times Clone Page
 Additional description about the project and its features.
 
 ## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
+-HTML
+-CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://github.com/Takhmina175/NewYorkTimes_Clone_Page)
 
 ## Authors
 
