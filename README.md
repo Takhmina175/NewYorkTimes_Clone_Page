@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# New York Times Clone Page
-
+# NewYorkTimes Clone Page
+HTML/CSS NewYorkTimes Web Page Clone (Microverse Project)
 > One paragraph statement about the project.
 
 ![screenshot](./images/nyt_page.png)
@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Takhmina175/NewYorkTimes_Clone_Page)
+[Live Demo Link](https://raw.githack.com/Takhmina175/NewYorkTimes_Clone_Page/magazine_clonePage/index.html)
 
 ## Authors
 
