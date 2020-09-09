@@ -11,7 +11,7 @@ html body {
   text-align: center;
   padding-top: 20px;
   position: fixed;
-  top: 0px;
+  top: 0;
   left: 5px;
   z-index: 9999;
   width: 100%;
@@ -20,7 +20,6 @@ html body {
 
 .leftcorner {
   display: flex;
-  
 }
 
 .rightcorner {
@@ -29,7 +28,8 @@ html body {
   background-color: white;
   border: none;
 }
-.gap{
+
+.gap {
   gap: 10px;
 }
 
@@ -47,20 +47,22 @@ a {
 .sbscrb {
   background-color: rgb(50, 104, 145);
   border: 1px solid rgb(50, 104, 145);
-  color: white; 
+  color: white;
 }
-.buttonCommonProperties{
+
+.buttonCommonProperties {
   padding: 10px;
   font-size: 12px;
   font-weight: 500;
-  height: 10px; 
+  height: 10px;
 }
+
 .account {
   background-color: white;
   border: none;
   font-size: 14px;
 }
-.pointer {cursor: pointer;}
+.pointer { cursor: pointer; }
 
 .grid1 {
   display: grid;
@@ -304,7 +306,7 @@ a {
 .embdImage h5 {
   width: 80%;
   text-align: left;
-  margin-top:5px;
+  margin-top: 5px;
   color: #7f8c8d;
 }
 
@@ -339,12 +341,12 @@ a {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas: 
-  "more_inSapce most_Popular"
-   "articles1    most_Popular"
-   "articles2    most_Popular"
-   "articles3    most_Popular"
-   "footer       footer";
+  grid-template-areas:
+    "more_inSapce most_Popular"
+    "articles1    most_Popular"
+    "articles2    most_Popular"
+    "articles3    most_Popular"
+    "footer       footer";
   margin-right: 5%;
   margin-left: 5%;
   column-gap: 100px;
@@ -367,29 +369,34 @@ a {
 }
 
 .wrp1 {
-  grid-area: articles1; 
+  grid-area: articles1;
   display: flex;
 }
-.title{
+
+.title {
   margin: 2px;
 }
-.wrapText{
+
+.wrapText {
   width: 250px;
 }
+
 .wrpMargins {
   grid-column: 1;
   margin-left: 20px;
+}
 
+.wrapContent {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
 }
-.wrapContent{
-    display: flex;
-    justify-content: flex-start;
-    gap: 15px;
-}
-.wrp2{
+
+.wrp2 {
   grid-area: articles2;
 }
-.time{
+
+.time {
   margin: 0 7px;
   color: #666;
 }
@@ -401,19 +408,20 @@ a {
   margin: 25px auto;
 }
 
-.wrp3{
-  grid-area: articles3; 
-
+.wrp3 {
+  grid-area: articles3;
 }
 
-.wrapArticle{
+.wrapArticle {
   display: flex;
   gap: 20px;
 }
-section{
+
+section {
   grid-column: 2;
   grid-row: 1;
 }
+
 .wrp4 {
   grid-area: most_Popular;
   font-weight: 100;
@@ -441,31 +449,29 @@ section{
 
 footer {
   margin: 0 auto;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
   background-color: white;
 }
+
 .navLogo {
   padding-bottom: 10px;
-  
 }
 
 .footerItems {
-  border-left: 1px solid #e2e2e2;;
+  border-left: 1px solid #e2e2e2;
 }
 
 .footerBorder-top {
   border-style: double;
   border-top: 1px solid #e2e2e2;
   box-sizing: border-box;
-
 }
 
 .wrapLogo {
   margin-top: 5px;
   margin-left: 20px;
   margin-right: 30px;
-
 }
 
 .logo {
@@ -486,10 +492,10 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-.wrapList{
+
+.wrapList {
   display: flex;
   gap: 90px;
- 
 }
 
 .list {
@@ -524,7 +530,6 @@ ul {
 
 .col1 {
   list-style: none;
-  
 }
 
 .col1 h4 {
@@ -541,7 +546,8 @@ ul {
   font-weight: 500;
   height: 23px;
 }
-li a{
+
+li a {
   line-height: 1.5;
 }
 
@@ -557,9 +563,11 @@ li a{
   font-size: 11px;
   line-height: 1;
 }
-.wrpAll{
+
+.wrpAll {
   margin-left: 10px;
 }
-.container{
+
+.container {
   margin: 0 auto;
 }
