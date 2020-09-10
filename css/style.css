@@ -3,34 +3,69 @@ html body {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
-.navbar {
+.d-flex {
   display: flex;
-  justify-content: space-between;
+}
+
+.grid-col {
+  grid-column: 2;
+}
+
+.f-size {
+  font-size: 14px;
+}
+
+.box-sizing {
+  box-sizing: border-box;
+}
+
+.color {
+  color: #333;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.margin {
+  margin: 0 auto;
+}
+
+.bck-color {
   background-color: white;
+}
+
+.f-weight {
+  font-weight: 500;
+}
+
+.m-width {
+  max-width: 100%;
+}
+
+.txt-color {
+  color: #666;
+}
+
+.navbar {
+  justify-content: space-between;
   border-bottom: 2px solid #e2e2e2;
   text-align: center;
-  padding-top: 20px;
+  align-items: center;
+  padding: 10px 0;
   position: fixed;
   top: 0;
   left: 5px;
   z-index: 9999;
   width: 100%;
-  margin: 0 auto;
-}
-
-.leftcorner {
-  display: flex;
 }
 
 .rightcorner {
-  display: flex;
-  font-size: 14px;
-  background-color: white;
   border: none;
 }
 
 .gap {
-  gap: 10px;
+  gap: 25px;
 }
 
 .nyt {
@@ -51,28 +86,24 @@ a {
 }
 
 .buttonCommonProperties {
-  padding: 10px;
-  font-size: 12px;
-  font-weight: 500;
+  padding: 12px;
+  font-size: 15px;
   height: 10px;
+  border-radius: 3px;
 }
 
 .account {
-  background-color: white;
   border: none;
-  font-size: 14px;
 }
-.pointer { cursor: pointer; }
+
+.pointer {
+  cursor: pointer;
+}
 
 .grid1 {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 80px 518px 50px;
   margin-top: 50px;
-}
-
-.pictureSpace {
-  grid-column: 2;
 }
 
 .pictureSpace h1 {
@@ -89,27 +120,22 @@ a {
   text-align: left;
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  color: #666;
   margin-right: 20%;
   margin-top: 0;
 }
 
 .grid2 {
-  display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 40px 50px auto;
   margin-top: 70px;
-  color: #333;
 }
 
 .grid2 h4 {
-  grid-column: 2;
   grid-row: 1;
   margin-left: 5%;
 }
 
 .wrapContainer {
-  grid-column: 2;
   grid-row: 2;
   display: inline-flex;
   margin-left: 5%;
@@ -123,7 +149,6 @@ a {
 
 .grid2 p,
 .box p {
-  grid-column: 2;
   margin: 0 auto;
   width: 90%;
   max-width: 100%;
@@ -139,7 +164,6 @@ a {
 }
 
 .grid3 {
-  display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   margin: 0 50px;
   font-size: 12px;
@@ -168,28 +192,16 @@ a {
 
 .news1 {
   grid-column: 3;
-  display: flex;
   gap: 10px;
   margin-bottom: 10px;
 }
 
 .text {
   width: 70%;
-  font-size: 14px;
-  font-weight: 500;
-  color: #333;
 }
 
 .box {
-  grid-column: 2;
   grid-row: 1;
-}
-
-.borderTopAndBottom {
-  border-bottom: 1px solid gray;
-  box-sizing: border-box;
-  max-width: 100px;
-  margin: 25px auto;
 }
 
 #subscribe {
@@ -211,7 +223,6 @@ a {
   line-height: 1.125rem;
   font-weight: 400;
   font-style: normal;
-  color: #666;
 }
 
 .TheoryInflation h2 {
@@ -219,18 +230,15 @@ a {
 }
 
 .grid4 {
-  display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: 350px;
   width: 966px;
-  margin: 0 auto;
   font-size: 11px;
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   line-height: 1.5;
 }
 
 .wrap1 {
-  display: flex;
   grid-column: 1;
   grid-row: 1;
   font-size: 12px;
@@ -244,14 +252,12 @@ a {
   grid-column: 1;
   grid-row: 3;
   line-height: 1.125rem;
-  font-weight: 500;
   font-style: normal;
   font-size: 16px;
 }
 
 .footnote > div {
   border-top: 1px solid black;
-  box-sizing: border-box;
   max-width: 100px;
   margin: 20px auto 0 auto;
   margin-left: 10px;
@@ -266,14 +272,11 @@ a {
 }
 
 .grid5 {
-  display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   margin-top: 40px;
-  color: #333;
 }
 
 .grid5 p {
-  grid-column: 2;
   margin: 0 auto;
   width: 90%;
   max-width: 100%;
@@ -283,7 +286,6 @@ a {
 }
 
 .embedingVideo {
-  grid-column: 2;
   grid-row: 2;
 }
 
@@ -294,7 +296,6 @@ a {
 }
 
 .embdImage {
-  grid-column: 2;
   grid-row: 4;
 }
 
@@ -311,7 +312,6 @@ a {
 }
 
 .footNote {
-  grid-column: 2;
   grid-row: 8;
 }
 
@@ -325,7 +325,6 @@ a {
 }
 
 .ftnote {
-  display: flex;
   justify-content: space-around;
 }
 
@@ -338,7 +337,6 @@ a {
 }
 
 .grid6 {
-  display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
@@ -365,12 +363,10 @@ a {
 
 .wrp1 h6 {
   margin: 0 5px;
-  color: #666;
 }
 
 .wrp1 {
   grid-area: articles1;
-  display: flex;
 }
 
 .title {
@@ -387,7 +383,6 @@ a {
 }
 
 .wrapContent {
-  display: flex;
   justify-content: flex-start;
   gap: 15px;
 }
@@ -403,8 +398,6 @@ a {
 
 .border-top {
   border-top: 1px solid black;
-  box-sizing: border-box;
-  max-width: 100%;
   margin: 25px auto;
 }
 
@@ -412,13 +405,7 @@ a {
   grid-area: articles3;
 }
 
-.wrapArticle {
-  display: flex;
-  gap: 20px;
-}
-
 section {
-  grid-column: 2;
   grid-row: 1;
 }
 
@@ -437,8 +424,6 @@ section {
 
 .aside_border-top {
   border-top: 1px solid #e2e2e2;
-  box-sizing: border-box;
-  max-width: 100%;
   margin: 25px auto;
 }
 
@@ -448,10 +433,8 @@ section {
 }
 
 footer {
-  margin: 0 auto;
   bottom: 0;
   width: 100%;
-  background-color: white;
 }
 
 .navLogo {
@@ -465,7 +448,6 @@ footer {
 .footerBorder-top {
   border-style: double;
   border-top: 1px solid #e2e2e2;
-  box-sizing: border-box;
 }
 
 .wrapLogo {
@@ -488,14 +470,13 @@ footer {
 
 .shortLinks {
   clear: both;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .wrapList {
-  display: flex;
-  gap: 90px;
+  width: 100%;
+  gap: 50px;
 }
 
 .list {
@@ -504,13 +485,12 @@ footer {
   grid-row: 3;
 }
 
-ul {
+.list ul {
   display: inline-flex;
   list-style: none;
   gap: 25px;
   font-size: 11px;
   margin: 10px auto 0 auto;
-  color: #333;
 }
 
 .border-left {
@@ -524,21 +504,21 @@ ul {
 
 .bottomLinePages {
   border-top: 1px solid #e2e2e2;
-  box-sizing: border-box;
-  max-width: 100%;
 }
 
 .col1 {
   list-style: none;
 }
 
+.margin-left {
+  margin-left: 40px;
+}
+
 .col1 h4 {
   width: 150px;
-  font-size: 14px;
   font-weight: 600;
   height: 3px;
   line-height: 16px;
-  color: #333;
 }
 
 .col1 li {
@@ -549,10 +529,6 @@ ul {
 
 li a {
   line-height: 1.5;
-}
-
-.imgText1 {
-  display: flex;
 }
 
 .deliveryText {
@@ -568,16 +544,9 @@ li a {
   margin-left: 10px;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 .fixed_footer {
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: white;
-  font-size: 14px;
   color: #2c3e50;
   position: fixed;
   bottom: 0;
@@ -585,14 +554,12 @@ li a {
 }
 
 .expand {
-  display: flex;
   margin-right: 10%;
 }
 
 .fa-angle-up {
   margin-top: 15px;
   font-weight: 800;
-  font-size: 14px;
   padding-left: 30px;
 }
 
